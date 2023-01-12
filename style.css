@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(14, 11, 246);
+    font-family: 'Sunday';
+}
+h2 {
+    color: rgb(210, 85, 8);
+    font-family: 'Teddy Bear';
+}
+body {background-color: rgb(186, 243, 225);}
+.red {color: red;}
+.blue {color: blue;}
+.red1 {font-size:  2rem;}
+.blue1 {font-size: 3rem;}
+
+@font-face {
+	font-family: 'Sunday';
+	src: url('style/fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('style/fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('style/fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('style/fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('style/fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('style/fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('style/fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('style/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('style/fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('style/fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('style/fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('style/fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
